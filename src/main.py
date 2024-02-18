@@ -39,6 +39,7 @@ def main():
 
         screen.fill("purple")
         blocksGrid.draw(screen)
+        blocksGrid.update()
         # testBlock.draw(screen)
         
         pygame.display.flip()
